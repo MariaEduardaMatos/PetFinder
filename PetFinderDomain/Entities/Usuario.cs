@@ -6,24 +6,16 @@ using System.Threading.Tasks;
 
 namespace PetFinderDomain.Entities
 {
-    public class Endereco:IcamposPadrao
-
+    public class Usuario:IcamposPadrao
     {
-        public int EnderecoId { get; set; }
+        public int UsuarioId { get; set; }
 
-        public string Rua { get; set; }
+        public string Nome { get; set; }
+        public string Sobrenome { get; set; }
 
-        public int Numero { get; set; }
+        public DateTime DataNasci { get; set; }
 
-        public string Referecia { get; set; }
-
-        public string CidadeId { get; set; }
-
-        public string EstadoId { get; set; }
-
-        public string PaisId { get; set; }
-
-        public string Cep { get; set; }
+        public int Endereco { get; set; }
         public int UsuarioCriacao { get; set; }
         public DateTime DataCriacao { get; set; }
         public int? UsuarioUltimaAlteracao { get; set; }

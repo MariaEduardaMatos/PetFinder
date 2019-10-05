@@ -3,9 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Apresentacao", "1-Apresentacao", "{BD508C68-1AFA-41B0-8F1A-D5A22A14DC00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Servico", "2-Servico", "{7C8E4CB7-A0BB-4D18-8505-7990AEA2D1BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Aplicacao", "3-Aplicacao", "{51E871EB-918A-487A-82CA-BD1413B325D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Dominio", "4-Dominio", "{23B8745D-2785-406C-BC07-F89A2E85807E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infra", "5-Infra", "{E1408EA8-0868-4DF1-B60F-9B8C4EBECCCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetFinderDomain", "PetFinderDomain\PetFinderDomain.csproj", "{481C8733-0CE1-4372-BF71-FDD23ACF94DC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{481C8733-0CE1-4372-BF71-FDD23ACF94DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481C8733-0CE1-4372-BF71-FDD23ACF94DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481C8733-0CE1-4372-BF71-FDD23ACF94DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481C8733-0CE1-4372-BF71-FDD23ACF94DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{481C8733-0CE1-4372-BF71-FDD23ACF94DC} = {23B8745D-2785-406C-BC07-F89A2E85807E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84BEDAA8-FA71-4009-87D7-3D01E6C3F6D5}

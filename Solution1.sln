@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infra", "5-Infra", "{E140
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetFinderDomain", "PetFinderDomain\PetFinderDomain.csproj", "{481C8733-0CE1-4372-BF71-FDD23ACF94DC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1-Data", "5.1-Data", "{132C364C-350A-49DB-8C28-F7BC08C3E6B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetFinder.Data", "PetFinder.Data\PetFinder.Data.csproj", "{404463B2-EE1C-4534-8C7B-0FF16244C43B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +29,18 @@ Global
 		{481C8733-0CE1-4372-BF71-FDD23ACF94DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{481C8733-0CE1-4372-BF71-FDD23ACF94DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{481C8733-0CE1-4372-BF71-FDD23ACF94DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404463B2-EE1C-4534-8C7B-0FF16244C43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404463B2-EE1C-4534-8C7B-0FF16244C43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404463B2-EE1C-4534-8C7B-0FF16244C43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404463B2-EE1C-4534-8C7B-0FF16244C43B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{481C8733-0CE1-4372-BF71-FDD23ACF94DC} = {23B8745D-2785-406C-BC07-F89A2E85807E}
+		{132C364C-350A-49DB-8C28-F7BC08C3E6B5} = {E1408EA8-0868-4DF1-B60F-9B8C4EBECCCE}
+		{404463B2-EE1C-4534-8C7B-0FF16244C43B} = {132C364C-350A-49DB-8C28-F7BC08C3E6B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84BEDAA8-FA71-4009-87D7-3D01E6C3F6D5}

@@ -1,0 +1,6 @@
+C:\Cursoc#\PetFinder\PetFinderDomain\bin\Debug\PetFinderDomain.dll
+C:\Cursoc#\PetFinder\PetFinderDomain\bin\Debug\PetFinderDomain.pdb
+C:\Cursoc#\PetFinder\PetFinderDomain\obj\Debug\PetFinderDomain.csprojAssemblyReference.cache
+C:\Cursoc#\PetFinder\PetFinderDomain\obj\Debug\PetFinderDomain.csproj.CoreCompileInputs.cache
+C:\Cursoc#\PetFinder\PetFinderDomain\obj\Debug\PetFinderDomain.dll
+C:\Cursoc#\PetFinder\PetFinderDomain\obj\Debug\PetFinderDomain.pdb

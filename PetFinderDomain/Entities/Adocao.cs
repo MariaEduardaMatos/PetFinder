@@ -14,6 +14,7 @@ namespace PetFinderDomain.Entities
         public DateTime DataInicio { get; set; }
         public DateTime DataFim { get; set; }
         public int PetId { get; set; }
+        public virtual Pet Pet { get; set; }
         public  int DoadorId { get; set; }
         public virtual Usuario Doador { get; set; }
         public int UsuarioCriacao { get; set; }

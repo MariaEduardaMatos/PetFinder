@@ -9,8 +9,10 @@ namespace PetFinderDomain.Entities
     public class AdocaoInteresse:IcamposPadrao
     {
         public int AdocaoInteresseId { get; set; }
+        public string Mensagem { get; set; }
         public string Aprovado { get; set; }
         public int AdocaoId { get; set; }
+        public virtual Adocao Adocao { get; set; }
         public int InteressadoId { get; set; }
         public virtual Usuario Interessado { get; set; }
         public int UsuarioCriacao { get; set; }

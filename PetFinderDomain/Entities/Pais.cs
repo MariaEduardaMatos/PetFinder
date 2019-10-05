@@ -10,6 +10,7 @@ namespace PetFinderDomain.Entities
     {
         public int PaisId { get; set; }
         public string Nome { get; set; }
+        public string Sigla { get; set; }
         public int UsuarioCriacao { get; set; }
         public DateTime DataCriacao { get; set; }
         public int? UsuarioUltimaAlteracao { get; set; }

@@ -87,6 +87,10 @@
     <Compile Include="EntityConfig\PetConfig.cs" />
     <Compile Include="EntityConfig\RacaCofing.cs" />
     <Compile Include="EntityConfig\UsuarioConfig.cs" />
+    <Compile Include="Migrations\201910051426568_Entidades.cs" />
+    <Compile Include="Migrations\201910051426568_Entidades.designer.cs">
+      <DependentUpon>201910051426568_Entidades.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\NpgsqlConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,7 +99,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201910051426568_Entidades.resx">
+      <DependentUpon>201910051426568_Entidades.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PetFinderDomain\PetFinderDomain.csproj">
       <Project>{481C8733-0CE1-4372-BF71-FDD23ACF94DC}</Project>

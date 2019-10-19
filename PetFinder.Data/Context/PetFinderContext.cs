@@ -1,4 +1,5 @@
 ﻿using PetFinder.Data.EntityConfig;
+using PetFinder.Data.Interfaces;
 using PetFinderDomain.Entities;
 using Projeto.Data.Migrations;
 using System;
@@ -13,7 +14,7 @@ namespace PetFinder.Data.Context
 {
 
     [DbConfigurationType(typeof(NpgsqlConfiguration))]
-    public class PetFinderContext: DbContext
+    public class PetFinderContext: DbContext, IDbContext
     {
         public PetFinderContext() : base("DefaultConnection")
         {

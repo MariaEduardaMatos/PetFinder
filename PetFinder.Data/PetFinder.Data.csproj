@@ -87,6 +87,11 @@
     <Compile Include="EntityConfig\PetConfig.cs" />
     <Compile Include="EntityConfig\RacaCofing.cs" />
     <Compile Include="EntityConfig\UsuarioConfig.cs" />
+    <Compile Include="Interfaces\IDbContext.cs" />
+    <Compile Include="Repository\RacaRepository.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="UnitOfWork.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Migrations\201910051426568_Entidades.cs" />
     <Compile Include="Migrations\201910051426568_Entidades.designer.cs">
       <DependentUpon>201910051426568_Entidades.cs</DependentUpon>

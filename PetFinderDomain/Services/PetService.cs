@@ -14,7 +14,7 @@ namespace PetFinderDomain.Services
         private readonly IPetService _petRepository;
         public PetService(IPetReposity repository) : base(repository)
         {
-
+            _petRepository = repository;
 
         }
 

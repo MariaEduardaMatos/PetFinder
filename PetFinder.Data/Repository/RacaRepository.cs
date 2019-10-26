@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PetFinder.Data.Repository
 {
-    class RacaRepository 
+    public  class RacaRepository  
     {
     }
 }
